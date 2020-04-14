@@ -2,8 +2,8 @@ package com.hibicode.prepaid.adapter.out.persistence;
 
 import com.hibicode.prepaid.adapter.out.persistence.mapper.AccountMapper;
 import com.hibicode.prepaid.adapter.out.persistence.repository.AccountRepository;
-import com.hibicode.prepaid.application.in.GetAccountQuery;
-import com.hibicode.prepaid.application.port.UpdateAccountPort;
+import com.hibicode.prepaid.application.port.in.GetAccountQuery;
+import com.hibicode.prepaid.application.port.out.UpdateAccountPort;
 import com.hibicode.prepaid.domain.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

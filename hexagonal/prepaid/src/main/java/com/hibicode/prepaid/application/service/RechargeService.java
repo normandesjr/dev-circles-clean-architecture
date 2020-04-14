@@ -1,8 +1,8 @@
 package com.hibicode.prepaid.application.service;
 
-import com.hibicode.prepaid.application.in.GetAccountQuery;
+import com.hibicode.prepaid.application.port.in.GetAccountQuery;
 import com.hibicode.prepaid.application.port.in.RechargeUseCase;
-import com.hibicode.prepaid.application.port.UpdateAccountPort;
+import com.hibicode.prepaid.application.port.out.UpdateAccountPort;
 import com.hibicode.prepaid.application.service.exception.NotFoundException;
 import com.hibicode.prepaid.application.service.exception.ThresholdExceededException;
 import com.hibicode.prepaid.domain.Account;

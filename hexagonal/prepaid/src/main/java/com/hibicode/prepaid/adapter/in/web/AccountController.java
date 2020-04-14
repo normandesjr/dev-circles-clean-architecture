@@ -4,7 +4,7 @@ import com.hibicode.prepaid.adapter.in.web.error.ResourceNotFoundException;
 import com.hibicode.prepaid.adapter.in.web.mapper.AccountWebMapper;
 import com.hibicode.prepaid.adapter.in.web.resource.AccountResource;
 import com.hibicode.prepaid.adapter.in.web.resource.RechargeResource;
-import com.hibicode.prepaid.application.in.GetAccountQuery;
+import com.hibicode.prepaid.application.port.in.GetAccountQuery;
 import com.hibicode.prepaid.application.port.in.RechargeUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
